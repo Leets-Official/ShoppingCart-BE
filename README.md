@@ -128,4 +128,34 @@ LG 그램, cpu: Intel core i7 : 1500000
 >>>> 결제가 완료 되었습니다!!
 ```
 
+## 프로그래밍 요구사항
+- Scanner를 이용해서 입력을 받습니다
+- terminal 환경에서 실행해야 합니다
+
+
+## 📢 미션 진행 요구사항
+미션은 아래의 가이드 노션을 보고 진행합니다.
+
+[미션 진행 가이드](https://leets-final.notion.site/46dbd9440a4f4d5e97228011dff70f5a?pvs=4)
+
+- 💡 빌드, 실행, 배포 -> 빌드 도구 -> Gradle -> 빌드 및 실행 에서 빌드 도구를 `Gradle -> IntelliJ`로 변경해줍니다.
+- Before
+  </br>
+  <img width="342" alt="스크린샷 2024-04-04 오후 6 34 30" src="https://github.com/Leets-Official/leets-mate-java-1/assets/129377887/5275689f-3f16-44ed-9775-48f5381b00d0">
+
+- After
+  </br>
+  <img width="337" alt="스크린샷 2024-04-04 오후 6 34 35" src="https://github.com/Leets-Official/leets-mate-java-1/assets/129377887/5f7c8571-b4f7-4a82-a67a-2a71200c2e13">
+
+- 최종 설정값
+  <img width="983" alt="스크린샷 2024-04-04 오후 6 34 14" src="https://github.com/Leets-Official/leets-mate-java-1/assets/129377887/014402b2-e975-4feb-b6a8-c980885e0421">
+
+</br>
+
+### 테스트 실행 가이드
+
+
+- 터미널에서 Mac 또는 Linux 사용자의 경우 `./gradlew clean test` 명령을 실행한다.
+- Windows 사용자의 경우 `gradlew.bat clean test` 명령을 실행한다.
+- 모든 Task가 제대로 통과하는지 확인한다.
 
