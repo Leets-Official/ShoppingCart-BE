@@ -20,6 +20,26 @@
 - 컴퓨터와 스마트폰 클래스는 Product를 상속받아 구현합니다.
 ```
 
+### 구현 목록
+Cart
+```
+- getProductList() : 장바구니의 상품 목록을 반환하는 메서드
+```
+ProductRepo
+```
+- findAll() : 모든 상품 목록을 반환하는 메서드
+- getProduct(): 제품 번호를 통해 제품을 반환하는 메서드
+```
+Computer, SmartPhone 
+```클래스의 필드, 생성자, 메서드를 모두 구현해야 합니다```
+
+ShopApp
+```
+- start() : 실행시 어플리케이션을 실행하는 메서드
+- addItemtoCart() :  장바구니에 상품을 추가하는 메서드
+- printProductList() : 상품 목록을 출력하는 메서드 
+```
+
 ### 입력 
 
 제품 번호를 입력받는다.
