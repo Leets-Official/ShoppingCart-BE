@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Cart {
@@ -11,7 +12,6 @@ public class Cart {
     }
 
     public List<Product> getProductList() {
-        return null;
-        //TODO:return null을 지우고 구현
+        return new ArrayList<Product>(productList);
     }
 }
