@@ -18,7 +18,7 @@ public class ProductRepo {
 
     //TODO: 모든 상품 목록을 반환하는 메서드
     public static Set<Map.Entry<Integer,Product>> findAll() {
-        return null;
+        return productList.entrySet();
     }
 
     //TODO: pid로 product를 가져오는 메서드
