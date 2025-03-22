@@ -12,4 +12,5 @@ public class SmartPhone extends Product{
     public String extraInfo() {
         return "carrier: " + carrier;
     }
+    
 }
