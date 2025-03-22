@@ -1,10 +1,16 @@
 package org.example;
 
 public class SmartPhone extends Product{
+    private String carrier;
 
-    //TODO: return null을 지우고 구현
+    public SmartPhone(String name, int price, String carrier) {
+        super(name, price);
+        this.carrier = carrier;
+    }
+
     @Override
     public String extraInfo() {
-        return null;
+        return "carrier: " + carrier;
     }
+    
 }

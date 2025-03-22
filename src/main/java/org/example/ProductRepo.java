@@ -17,12 +17,12 @@ public class ProductRepo {
     }
 
     //TODO: 모든 상품 목록을 반환하는 메서드
-    public static Set<Map.Entry<Integer,Product>> findAll() {
-        return null;
+    public static Set<Map.Entry<Integer, Product>> findAll() {
+        return productList.entrySet();
     }
 
     //TODO: pid로 product를 가져오는 메서드
     public static Product getProduct(int pid) {
-        return null;
+        return productList.get(pid);
     }
 }
