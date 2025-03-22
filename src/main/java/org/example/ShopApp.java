@@ -67,6 +67,9 @@ public class ShopApp {
         System.out.println("================================");
         for (Map.Entry<Integer, Product> entry : findAll()) {
             System.out.printf("[%d] %s\n", entry.getKey(), entry.getValue().toString());
+            // String.format을 쓰는 경우 다음과 같이 수정할 수 있습니다! 이 경우, 이스케이프 문자로 개행할 필요가 없습니다.
+            // String output = String.format("[%d] %s", entry.getKey(), entry.getValue().toString());
+            // System.out.println(output);
         }
         System.out.println("--------------------------------");
     }
