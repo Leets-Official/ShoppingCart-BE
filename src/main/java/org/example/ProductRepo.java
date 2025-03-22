@@ -23,6 +23,6 @@ public class ProductRepo {
 
     //TODO: pid로 product를 가져오는 메서드
     public static Product getProduct(int pid) {
-        return null;
+        return productList.get(pid);
     }
 }
