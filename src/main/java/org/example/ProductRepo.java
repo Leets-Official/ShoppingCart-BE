@@ -16,13 +16,12 @@ public class ProductRepo {
         productList.put(1187,new SmartPhone("구글 픽셀 5", 900000, "LG U+"));
     }
 
-    //TODO: 모든 상품 목록을 반환하는 메서드
+
     public static Set<Map.Entry<Integer,Product>> findAll() {
-        return null;
+        return productList.entrySet();
     }
 
-    //TODO: pid로 product를 가져오는 메서드
     public static Product getProduct(int pid) {
-        return null;
+        return productList.get(pid);
     }
 }
