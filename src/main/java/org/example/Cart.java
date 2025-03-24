@@ -11,7 +11,7 @@ public class Cart {
     }
 
     public List<Product> getProductList() {
-        return null;
-        //TODO:return null을 지우고 구현
+        return productList;
+
     }
 }
