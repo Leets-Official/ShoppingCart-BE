@@ -9,6 +9,6 @@ public class SmartPhone extends Product{
     }
     @Override
     public String extraInfo() {
-        return "carrier: "+carrier;
+        return "carrier: "+ carrier;
     }
 }
