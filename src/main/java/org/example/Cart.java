@@ -4,14 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cart {
-    private List<Product> productList = new ArrayList<Product>();
+    private List<Product> productList = new ArrayList<>();
 
     void add(int pid) {
-        this.productList.add(ProductRepo.getProduct(pid));
+        Product product = ProductRepo.getProduct(pid);
+        if (product != null) {
+            productList.add(product);
+        }
     }
 
     public List<Product> getProductList() {
-        return null;
-        //TODO:return null을 지우고 구현
+        return productList;
+    }
+
+    public int getTotalPrice() {
+        return productList.stream().mapToInt(Product::getPrice).sum();
     }
 }
